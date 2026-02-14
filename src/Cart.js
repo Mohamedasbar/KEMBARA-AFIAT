@@ -63,7 +63,7 @@ function Cart() {
     message += `\nPhone: ${phone}`;
     message += `\nAddress: ${address}`;
 
-    const whatsappNumber = "917826974909"; // CHANGE THIS
+    const whatsappNumber = "917339398378"; // CHANGE THIS
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
@@ -130,3 +130,4 @@ function Cart() {
 }
 
 export default Cart;
+
