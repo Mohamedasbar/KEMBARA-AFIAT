@@ -148,7 +148,16 @@ function Products() {
           </div>
         ))}
       </div>
-
+  {/* ABOUT */}
+      <section id="about" className="about-section">
+        <div className="ab"><h1>ABOUT</h1></div>
+        
+        <h2> Kembara Afiat</h2>
+        <p>
+          We provide natural healthy products like pure honey, A2 ghee,
+          copper containers and herbal oils.
+        </p>
+      </section>
     
       {/* FOOTER */}
       <footer>
@@ -171,4 +180,5 @@ function Products() {
 }
 
 export default Products;
+
 
