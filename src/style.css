@@ -149,6 +149,120 @@ footer h3 { margin:6px 0; font-weight:500; color:white; }
   .product-box { width:180px; height:320px; }
   .product-img { height:140px; }
   .product-box button { font-size:13px; padding:8px; }
-} 
+  
+* ===== PRODUCTS GRID ===== */
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 2in); /* 4 columns, each 2 inch */
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+/* 2 inch square box */
+.product-box {
+  width: 2in;
+  height: 2in;
+  background: white;
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   transition: 0.3s;
+}
+
+/* Image inside */
+.product-img {
+  width: 100%;
+  height:1.3in;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Text small */
+.product-box h3 {
+  font-size: 11px;
+}
+
+.price {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* Button small */
+.product-box button {
+  font-size: 10px;
+  padding: 4px;
+  border: transparent;
+  border-radius: 15px;
+  background-color: orange;
+   transition: 0.3s;
+}
+.product-box button:hover{
+  transform: scale(1.08);
+  opacity: 0.9;
+}
+.product-box:hover{
+   transform: scale(1.08);
+  opacity: 0.9;
+
+}
+
+/* ===== FOOTER ===== */
+footer {
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 1400px;
+
+  background: linear-gradient(rgb(23,155,23), rgb(12,196,12), rgb(6,214,6));
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  text-align: center;
+  color: whitesmoke;
+}
+
+.copyright {
+  background: black;
+  color: #f1c40f;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 2px;
+  text-align: center;
+}
+.about-section {
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 1200px;
+  background: linear-gradient(rgb(23,155,23), rgb(12,196,12), rgb(6,214,6));
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  text-align: center;
+  color: whitesmoke;
+}
+
+.abft{
+  padding: 5px;
+  background: linear-gradient(rgb(8, 8, 8),rgb(4, 73, 64),rgb(1, 32, 68));
+}
+.price{
+  color: orangered;
+}
+}
+
 
 
